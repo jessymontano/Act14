@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<documento>
+    <p>Mi Primer <destacar importancia="1">documentoXML</destacar></p>
+    <p>Comienza con la etiqueta &lt;documento&gt;</p>
+    <p>A continuacion colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif" />
+</documento>
+
+<!-- 
+<?xml version="1.0"?>
+<documento>
+    <p>Mi Primer <destacar importancia=1>documentoXML</destacar></p]
+    <p>Comienza con la etiqueta <documento&gt;</p>
+    <p>A continuacion colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif">
+</documento>
+
+    El documento no está bien formado.
+    1. El valor del atributo importancia debe ir entre comillas.
+    2. La etiqueta </p] está mal escrita.
+    3. En el segundo párrafo < debe reemplazarse por &lt;
+    4. La etiqueta imagen debe cerrarse.
+-->

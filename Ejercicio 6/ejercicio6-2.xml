@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<libros>
+	<libro id="quijote">
+		<titulo>El Quijote</titulo>
+		<autor nombre="cervantes" />
+		<descripcion>
+			Es el mejor libro de cervantes.
+		</descripcion>
+	</libro>
+</libros>
+<!-- 
+    <?xml version="1.0"?>
+        <libros>
+            <libro id="quijote">
+                <titulo>El Quijote</titulo>
+                <autor nombre=cervantes nombre=cervantes>
+                <descripcion>
+                    Es el m<ejor libro de cervantes.
+                </descripcion>
+            </libro]
+        </Libros>
+
+    El documento no está bien formado.
+    1. El atributo nombre se repite.
+    2. El valor del atributo nombre debe ir entre comillas.
+    3. La etiqueta autor debe cerrarse.
+    4. El caracter '<' no puede ir dentro de una etiqueta.
+    5. La etiqueta </libro] está mal escrita.
+    6. La etiqueta <libros> debe cerrarse como </libros> no </Libros>
+-->

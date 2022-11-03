@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <business>
+        <contact_information>
+            <name></name>
+            <phone_number></phone_number>
+            <email></email>
+            <address></address>
+            <website></website>
+        </contact_information>
+        <logo image="" />
+    </business>
+    <client>
+        <bill_to>
+            <name></name>
+            <address></address>
+        </bill_to>
+        <ship_to>
+            <name></name>
+            <address></address>
+        </ship_to>
+        <invoice_details>
+            <invoice_number></invoice_number>
+            <date></date>
+            <terms_of_payment></terms_of_payment>
+        </invoice_details>
+    </client>
+    <products>
+        <product>
+            <description></description>
+            <quantity></quantity>
+            <rate></rate>
+            <amount></amount>
+        </product>
+        <product>
+            <description></description>
+            <quantity></quantity>
+            <rate></rate>
+            <amount></amount>
+        </product>
+    </products>
+    <customer_message>
+        <p>Hello!</p>
+        <p>Thank you for your purchase. Please return this invoice with payment.</p>
+        <p>Thanks!</p>
+    </customer_message>
+    <payment>
+        <subtotal></subtotal>
+        <sales_tax></sales_tax>
+        <shipping></shipping>
+        <total></total>
+    </payment>
+</invoice>
